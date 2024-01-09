@@ -11,16 +11,16 @@ class Helper2 {
         String complete = ""; // this will be the complete string
 
         // find the position of the html formatting
-        int place1 = sample.indexOf("<b>");
-        int place2 = sample.indexOf("</b>");
+        int start1 = sample.indexOf("<b>");
+        int end1 = sample.indexOf("</b>");
         // get the name of the field
-        String weWant = sample.substring(place1+3, place2);
+        String info = sample.substring(start1+3, end1);
 
         // we will use this user input to replace the html field
-        System.out.print("\nplease type " + weWant + ": ");
+        System.out.print("\nplease type " + info + ": ");
         String temp = s.nextLine();
         // replacing the html field with the user input
-        complete = sample.substring(0, place1) + temp + sample.substring(place2+4);
+        complete = sample.substring(0, start1) + temp + sample.substring(end1+4);
         System.out.println("\nhere is the new string: " + complete);
 
     }

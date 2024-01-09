@@ -9,15 +9,13 @@ public class Starter
     {
         String madlib = "";
         String finalAns = "";
-        // 
+        
         // define different MadLibs
         // uncomment each to test other madlibs
         // madlib = " Once upon a time in a <adjective> land, a <noun> <adverb> grew.";
+        // you may *only* change the variable 'madlib', everything else should work correctly
 
-
-
-
-
+        
 
 
     }
