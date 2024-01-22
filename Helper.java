@@ -1,34 +1,21 @@
-import java.util.Scanner;
+public class Helper {
+    public static void main(String[] args){
+        // your project will require you to use .indexOf()
+        // and .substring()
+        // this program is meant to review those methods
 
-class Helper {
-    public static void main(String[] args) {
-        // the setup
-        Scanner sc = new Scanner(System.in);
-        String s = "you are <NAME> and you are <AGE> years old";
-        String f = "";
+        String s = "Avocados are a fruit, not a vegetable. The Eiffel Tower can be 15 cm taller during the summer. Venus is the only planet to spin clockwise.";
 
-        // finding the first thing to replace
-        int i1 = s.indexOf("<");
-        int i2 = s.indexOf(">");
-        String replace = s.substring(i1+1, i2);
+        // get the position of the first period
+        int p1 = s.indexOf(".");
+        String s1 = s.substring(0, p1+1);
+        System.out.println("Here's the first sentence: " + s1);
 
-        // getting input from the user
-        System.out.println("enter: " + replace);
-        String input = sc.nextLine();
-
-        // building the final String
-        f = s.substring(0,i1) + input;
-
-        System.out.println("final answer so far: " + f);
+        // get the second sentence
 
 
+        // get the third sentence
 
 
-        // begin the next part
-        String nextPart = s.substring(i2);
-        System.out.println(nextPart);
-
-        // alternate way
-        i1 = s.indexOf("<", i2); // pick up where we left off
     }
 }
