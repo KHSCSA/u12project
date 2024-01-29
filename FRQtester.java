@@ -18,4 +18,4 @@ class FRQtester {
         return pmt*(1-temp)/rate;
     }
   
-  }
+}
