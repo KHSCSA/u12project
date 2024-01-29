@@ -13,9 +13,9 @@ class FRQtester {
     }
   
     public static double getPresentValue(int pmt, int i, int n){
-        double rate = (double)i/100;
-        double temp = Math.pow(1+rate, -n);
-        return pmt*(1-temp)/rate;
+        // TODO
+
+        return 0.0;
     }
   
 }

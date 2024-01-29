@@ -7,8 +7,8 @@ public class Helper {
         String s = "Avocados are a fruit, not a vegetable. The Eiffel Tower can be 15 cm taller during the summer. Venus is the only planet to spin clockwise.";
 
         // get the position of the first period
-        int p1 = s.indexOf(".");
-        String s1 = s.substring(0, p1+1);
+        int p1 = 0;
+        String s1 = "TODO";
         System.out.println("Here's the first sentence: " + s1);
 
         // get the second sentence
