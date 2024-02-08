@@ -22,7 +22,7 @@ class KeyboardInput {
         int numVar2 = Integer.parseInt(sc.nextLine());
 
 
-        // getting integer input, RISKY!
+        // getting integer input, RISKY aka WRONG!
         System.out.print("\nenter a number: ");
         int numVar3 = sc.nextInt();
 
